@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'aleo';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #bb7e7e;
+  height: 100vh;
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: url('./assets/home.png') no-repeat;
+  background-size: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.ancients-container {
+  display: flex;
+  gap: 20px;
+}
+.ancients-container img {
+  height: 300px;
+}
+.level-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px 20px;
+}
+.level-container button {
+  background-color: rgba(220, 202, 237, 0);
+  font-size: 20px;
+  color: aliceblue;
+  border-color: aliceblue;
+}
+.shuffle__deck-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 20px;
+}
+.shuffle__deck-container button {
+  background-color: rgba(220, 202, 237, 0);
+  font-size: 16px;
+  color: aliceblue;
+  border-color: aliceblue;
+}
+.deck-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.deck-container img {
+  height: 200px;
+}
+.card {
+  height: 200px;
+  width: 136px;
+  background-color: #bb7e7e;
+}
+.az_wh img {
+  width: 105%;
+  height: 320px;
+  gap: 5%;
+}
+.b_color button {
+  color: red;
+}
